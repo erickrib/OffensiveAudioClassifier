@@ -27,7 +27,7 @@ open class OffensiveAudioClassifier: ObservableObject {
     private var task: SFSpeechRecognitionTask?
     private var recognizer: SFSpeechRecognizer?
     
-    init(initialTranscript: String? = nil) {
+    public init(initialTranscript: String? = nil) {
         recognizer = SFSpeechRecognizer()
         
         Task(priority: .background) {
