@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'OffensiveAudioClassifier'
-  s.version          = '1.0.6'
+  s.version          = '1.0.7'
   s.summary          = 'A powerful library for iOS developers to detect offensive language and hate speech in audio files, with support for SwiftUI and UIKit.'
 
   s.description      = <<-DESC
@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Erick Ribeiro' => 'erickrocha965@gmail.com', 'Gabriel Eduardo' => 'exemplo@gmail.com', 'Letícia Malagutti' => 'leticiamalagutti@yahoo.com.br', 'Victor Inácio' => 'chustrupgamer@gmail.com' }
   s.source           = { :git => 'https://github.com/erickrib/OffensiveAudioClassifier.git', :tag => s.version.to_s }
-  s.social_media_url = 'https://www.linkedin.com/in/erickrib/'
+  s.social_media_url = 'https://www.linkedin.com/in/erickrib/?locale=en_US'
 
   s.ios.deployment_target = '17.0'
   s.swift_version = '5.0'
