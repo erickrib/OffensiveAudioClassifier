@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'OffensiveAudioClassifier'
-  s.version          = '1.0.2'
+  s.version          = '1.0.3'
   s.summary          = 'A powerful library for iOS developers to detect offensive language and hate speech in audio files, with support for SwiftUI and UIKit.'
 
   s.description      = <<-DESC
