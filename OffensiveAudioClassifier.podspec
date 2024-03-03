@@ -16,7 +16,7 @@ OffensiveAudioClassifier supports both SwiftUI and UIKit, making integration eas
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'erick' => 'erickrocha965@gmail.com' }
   s.source           = { :git => 'https://github.com/erickrib/OffensiveAudioClassifier.git', :tag => s.version.to_s }
-  s.social_media_url = 'https://www.linkedin.com/in/erickrib/'
+  s.social_media_url = 'https://www.linkedin.com/in/erickrib'
 
   s.ios.deployment_target = '17.0'
   s.swift_version = '5.0'
