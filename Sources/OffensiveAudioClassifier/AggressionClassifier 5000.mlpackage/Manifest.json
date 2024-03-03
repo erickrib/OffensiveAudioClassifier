@@ -1,0 +1,24 @@
+{
+    "fileFormatVersion": "1.0.0",
+    "itemInfoEntries": {
+        "2B02F645-5D78-4C9D-9388-C0B0FB2DC9C2": {
+            "author": "com.apple.CoreML",
+            "description": "CoreML Model Specification",
+            "name": "AggressionClassifier 5000.mlmodel",
+            "path": "com.apple.CoreML/AggressionClassifier 5000.mlmodel"
+        },
+        "8B832140-5B3E-4E1E-8CDA-F0FEF29324FB": {
+            "author": "com.apple.CoreML",
+            "description": "External FeatureDescription Overlay",
+            "name": "FeatureDescriptions.json",
+            "path": "com.apple.CoreML/FeatureDescriptions.json"
+        },
+        "950F0815-B61F-4EEA-9B6D-8FD0A3452F91": {
+            "author": "com.apple.CoreML",
+            "description": "External Metadata Overlay",
+            "name": "Metadata.json",
+            "path": "com.apple.CoreML/Metadata.json"
+        }
+    },
+    "rootModelIdentifier": "2B02F645-5D78-4C9D-9388-C0B0FB2DC9C2"
+}

@@ -1,0 +1,11 @@
+{
+  "MLModelVersionStringKey" : "--",
+  "MLModelDescriptionKey" : "--",
+  "MLModelCreatorDefinedKey" : {
+    "com.apple.coreml.model.preview.type" : "textClassifier",
+    "com.apple.createml.app.tag" : "121.1",
+    "com.apple.createml.app.version" : "5.0"
+  },
+  "MLModelAuthorKey" : "Gabriel Eduardo",
+  "MLModelLicenseKey" : "--"
+}
