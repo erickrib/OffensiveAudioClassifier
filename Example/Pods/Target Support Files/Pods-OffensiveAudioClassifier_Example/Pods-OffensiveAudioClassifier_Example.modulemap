@@ -1,0 +1,6 @@
+framework module Pods_OffensiveAudioClassifier_Example {
+  umbrella header "Pods-OffensiveAudioClassifier_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

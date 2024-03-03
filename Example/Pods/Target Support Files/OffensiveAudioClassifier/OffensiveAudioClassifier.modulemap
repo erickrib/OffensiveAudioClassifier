@@ -1,0 +1,6 @@
+framework module OffensiveAudioClassifier {
+  umbrella header "OffensiveAudioClassifier-umbrella.h"
+
+  export *
+  module * { export * }
+}

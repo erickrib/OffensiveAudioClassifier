@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'OffensiveAudioClassifier_Example' do
+  pod 'OffensiveAudioClassifier', :path => '../'
+
+  target 'OffensiveAudioClassifier_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

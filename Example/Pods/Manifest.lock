@@ -1,0 +1,16 @@
+PODS:
+  - OffensiveAudioClassifier (0.1.0)
+
+DEPENDENCIES:
+  - OffensiveAudioClassifier (from `../`)
+
+EXTERNAL SOURCES:
+  OffensiveAudioClassifier:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  OffensiveAudioClassifier: 350c9e85e27de13fdc20e91ba980d9a12412aee8
+
+PODFILE CHECKSUM: 493b5872bf093d995f6e58c7f8082602fa88420a
+
+COCOAPODS: 1.15.2
