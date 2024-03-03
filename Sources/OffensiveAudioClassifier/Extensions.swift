@@ -8,7 +8,7 @@
 import Foundation
 import Speech
 
-extension SFSpeechRecognizer {
+public extension SFSpeechRecognizer {
     static func hasAuthorizationToRecognize() async -> Bool {
         await withCheckedContinuation { continuation in
             requestAuthorization { status in
@@ -18,7 +18,7 @@ extension SFSpeechRecognizer {
     }
 }
 
-extension AVAudioSession {
+public extension AVAudioSession {
     func hasPermissionToRecord() async -> Bool {
         await withCheckedContinuation { continuation in
             AVAudioApplication.requestRecordPermission() { authorized in
