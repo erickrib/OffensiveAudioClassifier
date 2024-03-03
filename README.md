@@ -48,6 +48,7 @@ it, simply add the following line to your Podfile:
 ```ruby
 pod 'OffensiveAudioClassifier'
 ```
+[Link-pod](https://cocoapods.org/pods/OffensiveAudioClassifier)
 
 ## Usage
 
