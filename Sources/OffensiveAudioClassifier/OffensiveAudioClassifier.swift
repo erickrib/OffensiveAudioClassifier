@@ -17,10 +17,10 @@ public protocol OffensiveAudioClassifierDelegate: AnyObject {
 
 open class OffensiveAudioClassifier: ObservableObject {
     
-    @Published var transcript: String = ""
-    @Published var textOffensive: String = "neither"
+    @Published public var transcript: String = ""
+    @Published public var textOffensive: String = "neither"
     
-    weak var delegate: OffensiveAudioClassifierDelegate?
+    public weak var delegate: OffensiveAudioClassifierDelegate?
     
     private var audioEngine: AVAudioEngine?
     private var request: SFSpeechAudioBufferRecognitionRequest?
