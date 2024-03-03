@@ -10,12 +10,12 @@ import Foundation
 import Speech
 import SwiftUI
 
-protocol OffensiveAudioClassifierDelegate: AnyObject {
+public protocol OffensiveAudioClassifierDelegate: AnyObject {
     func updateTranscript(_ text: String)
     func updateOffensiveText(_ text: String)
 }
 
-class OffensiveAudioClassifier: ObservableObject {
+open class OffensiveAudioClassifier: ObservableObject {
     
     @Published var transcript: String = ""
     @Published var textOffensive: String = "neither"
@@ -55,7 +55,7 @@ class OffensiveAudioClassifier: ObservableObject {
         reset()
     }
     
-    func reset() {
+    public func reset() {
         task?.cancel()
         audioEngine?.stop()
         audioEngine = nil
@@ -63,7 +63,7 @@ class OffensiveAudioClassifier: ObservableObject {
         task = nil
     }
     
-    func transcribe() {
+    public func transcribe() {
         DispatchQueue(label: "Speech Recognizer Queue", qos: .background).async { [weak self] in
             guard let self = self, let recognizer = self.recognizer, recognizer.isAvailable else {
                 self?.speakError(RecognizerError.recognizerUnavailable)
@@ -95,7 +95,7 @@ class OffensiveAudioClassifier: ObservableObject {
         }
     }
     
-    func stopTranscribing() {
+    public func stopTranscribing() {
          reset()
     }
     
@@ -140,7 +140,7 @@ class OffensiveAudioClassifier: ObservableObject {
         transcript = "<< \(errorMessage) >>"
     }
     
-    func detectOffensive(message: String) {
+    public func detectOffensive(message: String) {
         let model = try! AggressionClassifier_5000()
         
         guard let textOffensiveOutPut = try? model.prediction(text: message) else {

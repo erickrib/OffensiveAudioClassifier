@@ -8,12 +8,14 @@ Pod::Spec.new do |s|
                        DESC
 
   s.homepage         = 'https://github.com/erickrib/OffensiveAudioClassifier'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'erick' => 'erickrocha965@gmail.com' }
+  s.author           = { 'Erick Ribeiro' => 'erickrocha965@gmail.com', 'Gabriel Eduardo' => 'exemplo@gmail.com', 'Letícia Malagutti' => 'leticiamalagutti@yahoo.com.br', 'Victor Inácio' => 'chustrupgamer@gmail.com' }
   s.source           = { :git => 'https://github.com/erickrib/OffensiveAudioClassifier.git', :tag => s.version.to_s }
+  s.social_media_url = 'https://www.linkedin.com/in/erickrib/'
 
+  s.language = 'Swift'
   s.ios.deployment_target = '17.0'
   s.swift_version = '5.0'
   s.source_files = 'Sources/OffensiveAudioClassifier/**/*'
+  s.license = { :type => 'MIT', :file => 'LICENSE' }
 end
