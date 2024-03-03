@@ -10,6 +10,7 @@ The _"OffensiveAudioClassifier"_ library provides an innovative solution for rec
 * Machine Learning Model: Implements a robust machine learning model trained with over 35.000 expressions, using Apple's Create ML.
 * Supports both _SwiftUI_ and _UIKit_.
 * Does not require internet connection for use.
+* English language support only. (Will support more languages in the future)
 
 ### Benefits
 
