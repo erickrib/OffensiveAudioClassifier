@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
   s.name             = 'OffensiveAudioClassifier'
   s.version          = '1.0.0'
-  s.summary          = 'A library for detecting offensive content and words in audio files using Apple\'s Speech framework and a machine learning model based on the BERT algorithm. Trained on a dataset of over 35,000 phrases containing offensive content, it accurately classifies audio into categories of "neither", "offensive" and "hate".'
+  s.summary          = 'A powerful library for iOS developers to detect offensive language and hate speech in audio files, with support for SwiftUI and UIKit.'
 
   s.description      = <<-DESC
  The OffensiveAudioClassifier library empowers iOS developers to seamlessly integrate voice-based offensive content detection features into their applications. Leveraging Apple\'s Speech framework for audio transcription and a machine learning model based on the BERT algorithm created by Create ML, this library offers advanced capabilities in identifying offensive language and hate speech.
