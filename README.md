@@ -172,4 +172,8 @@ To use the voice recognition and audio recording features, your application must
 
 **Attention**: To use the voice recognition and audio recording features, your application must request and obtain the necessary permissions from the user. Without these settings, the library will not function correctly.
 
-
+## Creators
+* [Erick Ribeiro](https://github.com/erickrib)
+* [Gabriel Eduardo](https://github.com/GabrielEduardoSilva)
+* [Letícia Malagutti](https://github.com/LetiMalaga)
+* [Victor Inácio](https://github.com/victor-inacio)
