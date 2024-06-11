@@ -174,6 +174,6 @@ To use the voice recognition and audio recording features, your application must
 
 ## Creators
 * [Erick Ribeiro](https://github.com/erickrib)
-* [Gabriel Eduardo](https://github.com/GabrielEduardoSilva)
+* [Gabriel Eduardo](https://github.com/GabrielEduardoSilva) 
 * [Letícia Malagutti](https://github.com/LetiMalaga)
 * [Victor Inácio](https://github.com/victor-inacio)
